@@ -1,0 +1,8 @@
+.HelloWorld {
+  border: 10px solid black;
+  text-align: center;
+  background: #FF22AA;
+  color: #FFFFFF;
+  margin: 50px;
+  padding: 50px;
+}

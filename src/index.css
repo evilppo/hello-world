@@ -1,5 +1,7 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 10;
   font-family: helvetica;
+  background: #332299;
+  border: 10px solid black;
 }
