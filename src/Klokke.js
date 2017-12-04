@@ -4,22 +4,29 @@ import './Klokke.css';
 
 class Klokke extends Component{
 
-constructor(props) {
-  super(props);
-}
+    constructor(props) {
+      super(props);
+      this.state = { counter: 0, alfa : "hei" };
+      this.inkrementer = this.inkrementer.bind(this);
+       setInterval(this.inkrementer, 1000);
+    }
 
+    inkrementer(){
 
-tid() {
-  this.setState({ tidNaa: 10 });
+        var gammel = this.state.counter;
+        var ny = gammel + 1;
+        this.setState({counter :  ny })
+    }
 
-}
-//setInterval(() => console.log('jeg skrives ut hvert sekund'), 1000)
-
+    componentDidMount() {
+        this.setState({alfa: "did mount"})
+    }
 
     render() {
       return (
         <div className="Klokke">
-            <this.tidNaa/>
+            { this.state.counter }
+           { JSON.stringify(this.state) }
         </div>
         );
     }
