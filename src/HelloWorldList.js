@@ -6,8 +6,12 @@ import AddGreeter from './AddGreeter.js';
 class HelloWorldList extends Component {
 constructor(props) {
   super(props);
-  this.state = { greetings: ['Eirik', 'Nicoline', 'Patrick'] };
+  this.state = { greetings: [] };
+  this.addGreeting = this.addGreeting.bind(this);
 
+}
+addGreeting(newName) {
+  this.setState({ greetings: [...this.state.greetings, newName] });
 }
 
 renderGreetings() {
@@ -19,7 +23,7 @@ renderGreetings() {
   render() {
     return (
       <div className="HelloWorldList">
-        <AddGreeter />
+            <AddGreeter addGreeting={this.addGreeting}/>
         {this.renderGreetings()}
       </div>
     );
