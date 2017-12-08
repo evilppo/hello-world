@@ -8,16 +8,28 @@ constructor(props) {
   super(props);
   this.state = { greetings: [] };
   this.addGreeting = this.addGreeting.bind(this);
-
+  this.removeGreeting = this.removeGreeting.bind(this);
 }
+
 addGreeting(newName) {
   this.setState({ greetings: [...this.state.greetings, newName] });
 }
 
 renderGreetings() {
   return this.state.greetings.map(name => (
-    <HelloWorld key={name} name={name}/>
+    <HelloWorld
+      key={name}
+      name={name}
+      removeGreeting={this.removeGreeting}
+    />
   ));
+}
+
+removeGreeting(removeName) {
+  const filteredGreetings = this.state.greetings.filter(name => {
+    return name !== removeName;
+  });
+  this.setState({ greetings: filteredGreetings });
 }
 
   render() {

@@ -9,6 +9,11 @@ constructor(props) {
   this.state = { greeting: 'Hello' };
   this.frenchify = this.frenchify.bind(this);
   this.englishify = this.englishify.bind(this);
+  this.removeGreeting = this.removeGreeting.bind(this);
+}
+
+removeGreeting() {
+  this.props.removeGreeting(this.props.name);
 }
 
 frenchify() {
@@ -26,6 +31,7 @@ englishify() {
             <br/>
             <button onClick={this.frenchify}>Frenchify!</button>
             <button onClick={this.englishify}>ENGLISH!!</button>
+            <button onClick={this.removeGreeting}>Remove Me!</button>
         </div>
         );
     }

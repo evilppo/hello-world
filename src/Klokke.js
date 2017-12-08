@@ -12,7 +12,6 @@ class Klokke extends Component{
     }
 
     inkrementer(){
-
         var gammel = this.state.counter;
         var ny = gammel + 1;
         this.setState({counter :  ny })
@@ -30,7 +29,6 @@ class Klokke extends Component{
         </div>
         );
     }
-
 
 };
 export default Klokke;
