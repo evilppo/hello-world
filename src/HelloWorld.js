@@ -31,6 +31,7 @@ englishify() {
             <br/>
             <button onClick={this.frenchify}>Frenchify!</button>
             <button onClick={this.englishify}>ENGLISH!!</button>
+            <br/>
             <button onClick={this.removeGreeting}>Remove Me!</button>
         </div>
         );

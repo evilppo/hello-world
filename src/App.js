@@ -6,10 +6,13 @@ import Klokke from './Klokke.js';
 
 const App = () => {
   return (
-    <div className="App">
-    <Klokke/>
-    <HelloWorldList />
-    </div>
+        <div className="App">
+            <Klokke/>
+            <HelloWorldList
+                navn="Eirik"
+                navn2="Nicoline"
+            />
+        </div>
     );
 };
 

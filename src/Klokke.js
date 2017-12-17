@@ -6,7 +6,7 @@ class Klokke extends Component{
 
     constructor(props) {
       super(props);
-      this.state = { counter: 0, alfa : "hei" };
+      this.state = { counter: 0};
       this.inkrementer = this.inkrementer.bind(this);
        setInterval(this.inkrementer, 1000);
     }
@@ -17,18 +17,14 @@ class Klokke extends Component{
         this.setState({counter :  ny })
     }
 
-    componentDidMount() {
-        this.setState({alfa: "did mount"})
-    }
-
     render() {
       return (
         <div className="Klokke">
             { this.state.counter }
-           { JSON.stringify(this.state) }
         </div>
         );
     }
 
 };
+
 export default Klokke;

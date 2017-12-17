@@ -6,7 +6,7 @@ import AddGreeter from './AddGreeter.js';
 class HelloWorldList extends Component {
 constructor(props) {
   super(props);
-  this.state = { greetings: [] };
+  this.state = { greetings: [props.navn, props.navn2] };
   this.addGreeting = this.addGreeting.bind(this);
   this.removeGreeting = this.removeGreeting.bind(this);
 }
