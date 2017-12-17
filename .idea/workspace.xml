@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fa6f8a21-6fc9-4595-b1d1-48b52d5379cd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HelloWorld.js" afterPath="$PROJECT_DIR$/src/HelloWorld.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HelloWorldList.js" afterPath="$PROJECT_DIR$/src/HelloWorldList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Klokke.js" afterPath="$PROJECT_DIR$/src/Klokke.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,8 +36,8 @@
       <file leaf-file-name="Klokke.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Klokke.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="275">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -186,7 +182,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../codekata" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../nodejs-ex" />
     <property name="SearchEverywhereHistoryKey" value="port&#9;FILE&#9;file://C:/dev/source/hello-world/hello-world/node_modules/relateurl/lib/parse/port.js&#10;3000&#9;FILE&#9;file://C:/dev/source/hello-world/hello-world/node_modules/coa/.nyc_output/75b82d38f2186df930141082076e11c6.json" />
   </component>
   <component name="RunDashboard">
@@ -354,11 +350,19 @@
       <option name="project" value="LOCAL" />
       <updated>1512738855882</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="change klokke/timer to show only number. Add two greeters as default">
+      <created>1513518483377</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1513518483377</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -368,7 +372,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28263336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28263336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3757094" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -444,7 +448,8 @@
     <MESSAGE value=".xml og gitIgnore *.xml" />
     <MESSAGE value="automatisk utvidelse  av hello world bokser med navn fra &quot;ADD&quot; boks på forside" />
     <MESSAGE value="ferdig med 3. create react app tut. legg til REMOVE-funksjon på greeter" />
-    <option name="LAST_COMMIT_MESSAGE" value="ferdig med 3. create react app tut. legg til REMOVE-funksjon på greeter" />
+    <MESSAGE value="change klokke/timer to show only number. Add two greeters as default" />
+    <option name="LAST_COMMIT_MESSAGE" value="change klokke/timer to show only number. Add two greeters as default" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -545,17 +550,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1513518334250" expanded="true" signature="36895:36937" ph="..." />
-            <marker date="1513518334250" expanded="true" signature="36895:36955" ph="..." />
-            <marker date="1513518334250" expanded="true" signature="36895:36968" ph="..." />
-            <marker date="1513518334250" expanded="true" signature="36895:36983" ph="..." />
-            <marker date="1513518334250" expanded="true" signature="37018:37401" ph="..." />
-            <marker date="1513518334250" expanded="true" signature="37031:37386" ph="..." />
-            <marker date="1513518334250" expanded="true" signature="37066:37372" ph="..." />
-            <marker date="1513518334250" expanded="true" signature="37085:37357" ph="..." />
-            <marker date="1513518334250" expanded="true" signature="37159:37337" ph="..." />
-            <marker date="1513518334250" expanded="true" signature="37199:37303" ph="..." />
-            <marker date="1513518334250" expanded="true" signature="37220:37281" ph="..." />
+            <marker date="1513519037638" expanded="true" signature="36837:36879" ph="..." />
+            <marker date="1513519037638" expanded="true" signature="36837:36897" ph="..." />
+            <marker date="1513519037638" expanded="true" signature="36837:36910" ph="..." />
+            <marker date="1513519037638" expanded="true" signature="36837:36925" ph="..." />
+            <marker date="1513519037638" expanded="true" signature="36960:37343" ph="..." />
+            <marker date="1513519037638" expanded="true" signature="36973:37328" ph="..." />
+            <marker date="1513519037638" expanded="true" signature="37008:37314" ph="..." />
+            <marker date="1513519037638" expanded="true" signature="37027:37299" ph="..." />
+            <marker date="1513519037638" expanded="true" signature="37101:37279" ph="..." />
+            <marker date="1513519037638" expanded="true" signature="37141:37245" ph="..." />
+            <marker date="1513519037638" expanded="true" signature="37162:37223" ph="..." />
           </folding>
         </state>
       </provider>
@@ -666,8 +671,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Klokke.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="275">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding />
         </state>
       </provider>
